@@ -1,0 +1,28 @@
+name: Bug report
+description: Report a reproducible problem
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and steps to reproduce it.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: 1.0.0
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+  - type: input
+    id: provider
+    attributes:
+      label: API provider/model
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error message or log
+      description: Remove API keys and private data before posting.
